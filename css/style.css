@@ -1,0 +1,92 @@
+.cajaTitulo{
+    background-color: rgb(153, 253, 166);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5%;     
+}
+nav{
+    background-color: rgb(255, 252, 213);
+    color: #ffffff;
+    line-height: 1.5em;
+    font-size: 1em;
+   padding: 1%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+   display: inline;
+   margin-left: 20px;
+}
+nav a{
+    color: #000;
+    text-decoration: dashed;
+    padding: 0.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px #8fe284;
+}
+.cajaInicio{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    width: 100%; 
+    margin-bottom: 2%;   
+    background-color: #ffd5d5; 
+}
+.cajaInicio img{
+width: 50%;
+margin: 0%;
+
+}
+.cajaInicio div{
+    padding: 10%;
+    flex-grow: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+main h2{
+   font-size: 50px;
+}
+main img{
+    width: 30%;
+margin-right: 10%;
+}
+.cajaImportancia{
+    background-color: #adefff;
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    font-size: 20px;
+}
+.contenedorPrincipios ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0; /* Eliminar los márgenes para que los elementos se alineen correctamente */
+}
+
+.cajaPrincipios {
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 5px 5px 15px 0px rgb(216, 187, 255);
+    flex: 1 1 calc(25% - 20px); /* Ajustar el tamaño de las cajas para que sean iguales, restando el margen */
+    margin: 10px; /* Añadir un margen para separación entre las cajas */
+    padding: 10px; /* Añadir padding para espacio interno */
+    box-sizing: border-box; /* Asegurarse de que el padding y el borde se incluyan en el ancho y alto total */
+}
+.cajaPrincipios p{
+    color: #613dc4;
+}
+.cajaEjemplos{
+
+}
+.cajaEjemplos p{
+    color: #446b3f;
+    font-size: 20px;
+}
+.cajaEjemplos span{
+    font-size: 17px;
+}
